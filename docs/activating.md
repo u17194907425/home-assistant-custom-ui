@@ -2,7 +2,12 @@
 
 ## For Home Assistant 0.53+
 
-#### 1. Tell Home Assistant to load relevant files.
+There multiple small edits to be applied to the `configurations.yaml` in order to make CustomUI work. Please execute all the steps below:
+
+1. Tell Home Assistant to load relevant files
+1. 
+
+#### STEP #1. Tell Home Assistant to load relevant files.
 (**Only one** of 1.1 - 1.8)
 
 1.1 Using [customizer](https://github.com/andrey-git/home-assistant-customizer/) for [local install](installing.md#local-install)
@@ -118,6 +123,7 @@ customize_glob:
     custom_ui_state_card: state-card-custom-ui
 ```
 
+----
 
 ## For Home Assistant up to 0.52
 In the `customize:` section of `configuration.yaml` put `custom_ui_state_card: custom-ui` for the relevant entities / domains.
